@@ -33,7 +33,7 @@ jobs:
       - name: Install npm dependencies
         run: npm ci
         
-      - name: Create empty placeholder allowlist
+      - name: Create empty allowlist
         run: touch allowlist.txt
 
       - name: Download blocklists
